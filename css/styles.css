@@ -1,0 +1,124 @@
+
+
+body {
+  font-family: 'DINPro';
+  margin: 0;
+  color: white;
+  height: auto;
+  background: #63CA98; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#63CA98, #72D9C0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#63CA98, #72D9C0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#63CA98, #72D9C0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#63CA98, #72D9C0); /* Standard syntax */
+}
+.nav {
+  padding: 25px;
+  min-height: 200px;
+  background-image: url("../assets/nav.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  color: #63CA98;
+}
+.logo {
+  padding: 0;
+  height: 100px;
+  display: inline;
+}
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+li:first-child {
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 25px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:first-child {
+  border: none;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #63CA98;
+}
+.aspot {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+.info {
+}
+.mock {
+  max-width: 300px;
+}
+@media (min-width: 500px) {
+  .nav {
+    height: 210px
+  }
+}
+@media (min-width: 700px) {
+  .nav {
+    height: 300px
+  }
+}
+@media (min-width: 1200px) {
+  .nav {
+    height: 400px
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    height: 50px;
+  }
+  li {
+    padding: 10px;
+  }
+}
+
+@font-face {
+	font-family: 'DINPro Light';
+	src:
+		local('DINPro Light'),
+		local('DINPro-Light'),
+		url('../fonts/DINPro-Light.otf')
+		format('opentype');
+  font-weight: lighter;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	src:
+		local('DINPro'),
+		local('DINPro'),
+		url('../fonts/DINPro-Regular.otf')
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'DINPro Medium';
+	src:
+		local('DINPro Medium'),
+		local('DINPro-Medium'),
+		url('../fonts/DINPro-Medium.otf')
+		format('opentype');
+  font-weight: 400;
+}
+/*bold version*/
+@font-face {
+	font-family: 'DINPro Bold';
+	src:
+		local('DINPro Bold'),
+		local('DINPro-Bold'),
+		url('../fonts/DINPro-Bold.otf')
+		format('opentype');
+	font-weight: bold;
+}
