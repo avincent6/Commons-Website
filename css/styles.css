@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'DINPro';
+  font-family: 'DINPro', sans-serif;
   margin: 0;
   color: white;
   height: auto;
@@ -10,6 +10,16 @@ body {
     background: -o-linear-gradient(#63CA98, #72D9C0); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#63CA98, #72D9C0); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#63CA98, #72D9C0); /* Standard syntax */
+}
+h1 {
+  font-size: 30px;
+  font-family: 'DINPro Medium', sans-serif;
+}
+p {
+  font-size: 25px;
+}
+span {
+  font-family: "DINPro Bold", sans-serif;
 }
 .nav {
   padding: 25px;
@@ -51,14 +61,26 @@ a:hover {
   border-bottom: 2px solid #63CA98;
 }
 .aspot {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  padding: 25px;
   position: relative;
-  height: 100vh;
   text-align: center;
 }
 .info {
+  margin-top: -150px;
+  padding: 20px;
+  width: 50%;
+  text-align: left;
+}
+.pic {
+  width: 50%;
 }
 .mock {
-  max-width: 300px;
+  max-width: 300px;s
 }
 @media (min-width: 500px) {
   .nav {
