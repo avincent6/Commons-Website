@@ -91,10 +91,23 @@ li:first-child {
     height: 300px
   }
 }
+@media (min-width: 1000px) {
+  .mock {
+    max-width: 500px;
+  }
+  .aspot {
+    margin-top: -150px;
+  }
+}
 @media (min-width: 1200px) {
   .nav {
     height: 400px
   }
+  .aspot {
+    margin-top: -200px;
+    padding: 0 160px;
+  }
+
 }
 @media (max-width: 500px) {
   .aspot {
