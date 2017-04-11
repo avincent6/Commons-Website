@@ -1,5 +1,3 @@
-
-
 body {
   font-family: 'DINPro', sans-serif;
   margin: 0;
@@ -80,6 +78,38 @@ li:first-child {
 }
 .mock {
   max-width: 300px;
+}
+.footer {
+  background: white;
+  color: #63CA98;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+.footer-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.footer-content li:hover {
+  text-align: center;
+  border: none;
+}
+.footer-content a:hover {
+  text-align: center;
+  border-bottom: 2px solid #63CA98;
+}
+
+.footer-content li:first-child {
+  padding: 10px 25px;
+}
+i {
+  color: #63CA98;
+}
+.copyright {
+  color: #72D9C0;
+  font-size: 15px;
 }
 @media (min-width: 500px) {
   .nav {
