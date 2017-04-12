@@ -6,7 +6,9 @@
 }
 .mailchimp {
 }
-.aspot {
+.maspot {
+  margin-top: 100px;
+
   height: 350px;
   display: flex;
   justify-content: flex-start;
@@ -41,12 +43,11 @@ input {
 }
 
 @media (max-width: 600px) {
-  .aspot {
-    margin-top: -100px;
+  .maspot {
     display: block;
     height: 600px;
   }
-  .info {
-    margin: 0;
+  .demo {
+    margin-top: 0px;
   }
 }
