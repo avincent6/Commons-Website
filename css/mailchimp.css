@@ -34,7 +34,12 @@ input {
   font-size: 10px;
   color: gray;
 }
-.button {
+#mc_embed_signup input {
+  border: none;
+  border-bottom: 2px solid white;
+}
+#mc_embed_signup .button {
+  height: auto;
   background: white;
   color: #63CA98;
   border: none;
