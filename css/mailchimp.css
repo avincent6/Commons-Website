@@ -1,0 +1,52 @@
+.right {
+
+}
+.left {
+
+}
+.mailchimp {
+}
+.aspot {
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+label {
+  padding: 20px 20px 0px 0;
+}
+input {
+  padding: 20px 20px 0px 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: white;
+
+}
+.indicates-required {
+  font-size: 10px;
+  color: gray;
+}
+.button {
+  background: white;
+  color: #63CA98;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .aspot {
+    margin-top: -100px;
+    display: block;
+    height: 600px;
+  }
+  .info {
+    margin: 0;
+  }
+}
