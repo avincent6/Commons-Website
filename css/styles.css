@@ -65,13 +65,14 @@ li:first-child {
   align-items: center;
   margin: 0 auto;
   padding: 25px;
-  text-align: center;
 }
 .info {
   margin-top: -150px;
   padding: 20px;
   text-align: left;
+
 }
+
 .mock {
   max-width: 300px;
 }
@@ -108,6 +109,9 @@ i {
   color: #72D9C0;
   font-size: 15px;
 }
+.title {
+  font-family: 'DINPro Bold', sans-serif;
+}
 @media (min-width: 500px) {
   .nav {
     height: 300px;
@@ -116,6 +120,9 @@ i {
 @media (min-width: 700px) {
   .nav {
     height: 300px;
+  }
+  .info {
+    margin: 0;
   }
 }
 @media (min-width: 1000px) {
